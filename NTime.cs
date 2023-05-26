@@ -54,6 +54,15 @@ public sealed class NTime
 
     public static void Log(object message)
     {
-        Debug.Log(message.ToString() + FFCToString);
+        Debug.Log("This is a Log:" + message.ToString() + FFCToString);
+    }
+
+    public static void LogWarning(object message)
+    {
+        Debug.LogWarning("This is a Warning Log:" + message.ToString() + FFCToString);
+    }
+    public static void LogError(object message)
+    {
+        Debug.LogError("This is an Error Log:" + message.ToString() + FFCToString);
     }
 }
