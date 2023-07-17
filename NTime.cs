@@ -7,7 +7,7 @@ using UnityEngine;
 
 public sealed class NTime
 {
-     public static float startTime_Unscale = 0;
+     public static float startTime_Unscaled = 0;
     public static float startTime = 0;
 
     public static int FixedFrameCount = 0;
